@@ -1,0 +1,2365 @@
+{
+ "_demo": {
+  "today": "2026-03-12",
+  "note": "Athlète fictif. Le champ _demo n'est lu que par scripts/build-demo.py."
+ },
+ "athlete": {
+  "name": "Camille"
+ },
+ "meta": {
+  "id": "foulees-port-2026",
+  "name": "Objectif Foulées du Port",
+  "race": [
+   "Foulées du",
+   "Port"
+  ],
+  "place": "Ville-Exemple",
+  "distance": 10,
+  "distLabel": "10 km",
+  "raceDate": "2026-04-05",
+  "goal": "52:00",
+  "start": "2026-03-02",
+  "end": "2026-04-06",
+  "ref": {
+   "label": "Dernier 10 km",
+   "time": "54:30"
+  },
+  "source": "Claude · plan sur Coros",
+  "status": "active"
+ },
+ "calib": {
+  "label": "FC seuil 168 · FC max ≈ 186 · seuil 5'20/km",
+  "lthr": 168,
+  "hrmax": 186,
+  "thr": "5:20",
+  "zoneBounds": [
+   143,
+   150,
+   158,
+   168
+  ],
+  "footCap": 146,
+  "aeroHr": 141,
+  "aeroRef": 345,
+  "aeroRefLabel": "repère 4h30 au marathon",
+  "note": "Exemple : la FC max saisie à la main dans COROS (190) est une ancienne valeur, elle n'est pas utilisée ici."
+ },
+ "zones": [
+  {
+   "z": "Z1 · Récup",
+   "fc": "< 143",
+   "p": "> 6'50",
+   "u": "Récup, retours au calme",
+   "c": "--s-footing",
+   "o": 0.45
+  },
+  {
+   "z": "Z2 · Endurance",
+   "fc": "143–150",
+   "p": "6'20–6'50",
+   "u": "Footings et sorties longues, plafond 146",
+   "c": "--s-footing",
+   "o": 1
+  },
+  {
+   "z": "Z3 · Tempo",
+   "fc": "151–158",
+   "p": "5'40–6'05",
+   "u": "Zone intermédiaire, évitée dans cette prépa",
+   "c": "--s-sl",
+   "o": 1
+  },
+  {
+   "z": "Z4 · Seuil",
+   "fc": "159–168",
+   "p": "5'15–5'25",
+   "u": "Blocs au seuil",
+   "c": "--s-seuil",
+   "o": 1
+  },
+  {
+   "z": "Z5 · VMA",
+   "fc": "169+",
+   "p": "≤ 5'10",
+   "u": "Allure 10 km, 800 m, 1000 m",
+   "c": "--s-vma",
+   "o": 1
+  }
+ ],
+ "paces": [
+  [
+   "Footing",
+   "6'20–6'50"
+  ],
+  [
+   "Seuil",
+   "5'15–5'25"
+  ],
+  [
+   "Allure 10 km",
+   "5'10–5'14"
+  ],
+  [
+   "Intervalles (I)",
+   "4'50–4'58"
+  ],
+  [
+   "Répétitions (R)",
+   "4'38–4'45"
+  ]
+ ],
+ "diag": [
+  {
+   "level": "warn",
+   "title": "Footings un peu trop hauts",
+   "text": "4 footings sur 10 le mois dernier dépassent 146 bpm. Pour vraiment récupérer, vise 135–145."
+  },
+  {
+   "level": "info",
+   "title": "52 minutes, c'est ambitieux",
+   "text": "5'12/km, c'est 8 secondes sous ton dernier 10 km (5'25) et proche de ta prédiction COROS (5'20). Jouable sur un parcours plat avec un bon affûtage."
+  },
+  {
+   "level": "good",
+   "title": "Bonne récupération",
+   "text": "VFC dans ta normale 6 nuits sur 7, FC de repos stable à 52 bpm : tu peux absorber la charge prévue."
+  }
+ ],
+ "highlights": [
+  {
+   "k": "10 km · Foulées d'hiver",
+   "v": "54:30",
+   "s": "5'25/km · 167 bpm"
+  },
+  {
+   "k": "Sortie longue",
+   "v": "14 km",
+   "s": "1h31 · 6'30/km · 146 bpm"
+  }
+ ],
+ "sci": [
+  [
+   "Polarisation 80/20 (Seiler)",
+   "Compté en séances, pas en km : au plus 2 séances avec intensité par semaine. Tes footings restent sous 146 bpm."
+  ],
+  [
+   "Allures VDOT (Daniels)",
+   "Ton seuil COROS à 5'20 donne : seuil 5'15–5'25, intervalles 4'50–4'58, répétitions 4'38–4'45."
+  ],
+  [
+   "Zones sur la FC au seuil (Friel)",
+   "Plus fiables qu'une FC max théorique. Les tiennes partent de 168 bpm."
+  ],
+  [
+   "Affûtage (Mujika & Padilla)",
+   "Volume réduit de 40 à 60 %, intensité gardée. Réglé selon ta VFC et ton ressenti."
+  ],
+  [
+   "Entraînement guidé par la VFC (Plews, Kiviniemi)",
+   "Tendance sur 2 nuits plutôt qu'une seule mesure."
+  ]
+ ],
+ "prs": [
+  [
+   "10 km",
+   "54:30",
+   "Foulées d'hiver",
+   "officiel",
+   true
+  ],
+  [
+   "5 km",
+   "26:10",
+   "Parkrun",
+   "record COROS",
+   false
+  ],
+  [
+   "Semi-marathon",
+   "2:04:10",
+   "Semi de l'automne",
+   "temps officiel",
+   false
+  ],
+  [
+   "Plus longue sortie",
+   "14 km",
+   "il y a 4 semaines",
+   "sortie longue",
+   false
+  ]
+ ],
+ "progression": {
+  "title": "Progression sur 10 km",
+  "sub": "en minutes · plus bas = plus vite",
+  "points": [
+   [
+    "il y a 6 mois",
+    62,
+    "1h02"
+   ],
+   [
+    "il y a 3 mois",
+    57.5,
+    "57:30"
+   ],
+   [
+    "il y a 3 sem.",
+    54.5,
+    "54:30"
+   ]
+  ],
+  "goal": [
+   "course",
+   52,
+   "52:00 objectif"
+  ]
+ },
+ "splits": {
+  "title": "Ton 10 km d'hiver, km par km",
+  "sub": "Foulées d'hiver · 40 m de D+",
+  "laps": [
+   [
+    1,
+    322,
+    158
+   ],
+   [
+    2,
+    328,
+    162
+   ],
+   [
+    3,
+    326,
+    164
+   ],
+   [
+    4,
+    327,
+    165
+   ],
+   [
+    5,
+    325,
+    166
+   ],
+   [
+    6,
+    327,
+    167
+   ],
+   [
+    7,
+    326,
+    168
+   ],
+   [
+    8,
+    325,
+    169
+   ],
+   [
+    9,
+    323,
+    171
+   ],
+   [
+    10,
+    318,
+    174
+   ]
+  ],
+  "comment": "Départ prudent, régularité correcte, FC qui monte doucement : un 52:00 demande de gagner 13 s/km, soit un seuil plus haut, pas un départ plus rapide."
+ },
+ "history": [
+  {
+   "id": "ancien-plan",
+   "name": "Prépa 10 km d'automne",
+   "race": [
+    "10 km de",
+    "l'automne"
+   ],
+   "distance": 10,
+   "distLabel": "10 km",
+   "raceDate": "2025-11-09",
+   "goal": "58:00",
+   "result": "56:10",
+   "start": "2025-09-08",
+   "end": "2025-11-09",
+   "weeks": 9,
+   "source": "Application d'entraînement",
+   "status": "done",
+   "note": "Premier 10 km chrono, objectif manqué de 2 minutes."
+  }
+ ],
+ "plan": [
+  {
+   "n": 1,
+   "name": "Base",
+   "range": "2–8 mars",
+   "s": [
+    {
+     "id": "ex-1a",
+     "d": "2026-03-02",
+     "t": "footing",
+     "title": "Footing 40'",
+     "det": "Endurance facile",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 6.5,
+     "why": "Le volume facile construit l'endurance de base (80 % du temps).",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 40'",
+      "courseDescription": "Endurance facile, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2400,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-1b",
+     "d": "2026-03-04",
+     "t": "allure",
+     "title": "Fartlek 8 × 1' / 1'",
+     "det": "15' échauffement · 8 × 1' vif, 1' trot · 10' retour",
+     "tg": [
+      "1' à 4'50–4'58",
+      "trot 6'30+"
+     ],
+     "km": 8,
+     "why": "Première touche d'intensité : on teste les jambes avec un format court.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Fartlek 8 × 1'",
+      "courseDescription": "15' d'échauffement, 8 fois 1' vif (4'50 à 4'58/km) et 1' de trot, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 8,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 60,
+          "intensityType": 2,
+          "intensityValueStart": 290,
+          "intensityValueEnd": 298
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 60,
+          "intensityType": 2,
+          "intensityValueStart": 390,
+          "intensityValueEnd": 450
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-1c",
+     "d": "2026-03-06",
+     "t": "footing",
+     "title": "Footing 40'",
+     "det": "Endurance",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 6.5,
+     "why": "Volume facile entre deux séances.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 40'",
+      "courseDescription": "Endurance facile, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2400,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-1d",
+     "d": "2026-03-08",
+     "t": "sl",
+     "title": "Sortie longue 1h05",
+     "det": "Endurance continue",
+     "tg": [
+      "FC 130–146",
+      "6'20–6'50/km"
+     ],
+     "km": 10,
+     "why": "Garde le moteur aérobie sans fatigue inutile.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Sortie longue 1h05",
+      "courseDescription": "Endurance continue, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 3900,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Développement",
+   "range": "9–15 mars",
+   "s": [
+    {
+     "id": "ex-2a",
+     "d": "2026-03-09",
+     "t": "footing",
+     "title": "Footing 40' + 6 lignes droites",
+     "det": "6 × 20\" vite et relâché",
+     "tg": [
+      "FC 130–146",
+      "LD ≈ 4'30/km"
+     ],
+     "km": 6.5,
+     "why": "Réveille la foulée sans fatigue métabolique.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 40' + 6 lignes droites",
+      "courseDescription": "40' facile puis 6 accélérations de 20 secondes, relâché.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2400,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 6,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 20,
+          "intensityType": 2,
+          "intensityValueStart": 250,
+          "intensityValueEnd": 270
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 60,
+          "intensityType": 2,
+          "intensityValueStart": 480,
+          "intensityValueEnd": 600
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-2b",
+     "d": "2026-03-11",
+     "t": "vma",
+     "title": "Côtes 10 × 45\"",
+     "det": "20' échauffement · 10 × 45\" en côte (5–7 %) · 10' retour",
+     "tg": [
+      "effort fort, foulée haute",
+      "FC 160+ en haut"
+     ],
+     "km": 8,
+     "why": "Force et économie de course sans le choc du plat rapide.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Côtes 10 × 45\"",
+      "courseDescription": "20' d'échauffement, 10 montées de 45\" dans une côte à 5–7 %, redescente en trottinant, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 1200,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 10,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 45,
+          "intensityType": 1,
+          "intensityValueStart": 158,
+          "intensityValueEnd": 182
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 90,
+          "intensityType": 1,
+          "intensityValueStart": 110,
+          "intensityValueEnd": 150
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-2c",
+     "d": "2026-03-13",
+     "t": "seuil",
+     "title": "Seuil 3 × 10'",
+     "det": "15' échauffement · 3 × 10' r 2' trot · 10' retour",
+     "tg": [
+      "5'15–5'25/km",
+      "FC 158–168"
+     ],
+     "km": 10,
+     "why": "Les « cruise intervals » de Daniels repoussent le seuil, facteur n°1 sur 10 km.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Seuil 3 × 10'",
+      "courseDescription": "15' d'échauffement, 3 fois 10' au seuil (5'15 à 5'25/km) avec 2' de trot, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 3,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 600,
+          "intensityType": 2,
+          "intensityValueStart": 315,
+          "intensityValueEnd": 325
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 120,
+          "intensityType": 2,
+          "intensityValueStart": 390,
+          "intensityValueEnd": 450
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-2d",
+     "d": "2026-03-15",
+     "t": "sl",
+     "title": "Sortie longue 1h15",
+     "det": "Endurance continue",
+     "tg": [
+      "FC 130–146",
+      "6'20–6'50/km"
+     ],
+     "km": 11.5,
+     "why": "La semaine a déjà deux séances de qualité : on reste en endurance pure.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Sortie longue 1h15",
+      "courseDescription": "1h15 en endurance continue, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 4500,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "name": "Pic",
+   "range": "16–22 mars",
+   "s": [
+    {
+     "id": "ex-3a",
+     "d": "2026-03-16",
+     "t": "footing",
+     "title": "Footing 40'",
+     "det": "Facile",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 6.5,
+     "why": "Récupération active avant la semaine la plus dure.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 40'",
+      "courseDescription": "Facile, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2400,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-3b",
+     "d": "2026-03-18",
+     "t": "vma",
+     "title": "Pyramide 400-800-1200-800-400",
+     "det": "15' échauffement · récup = moitié du temps d'effort · 10' retour",
+     "tg": [
+      "4'50–4'58/km"
+     ],
+     "km": 9,
+     "why": "Travail à VO2max (allure I de Daniels), la pyramide varie les durées.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Pyramide 400-800-1200-800-400",
+      "courseDescription": "15' d'échauffement, puis 400, 800, 1200, 800 et 400 m à 4'50–4'58/km, récupération en trottinant, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 400,
+        "intensityType": 2,
+        "intensityValueStart": 290,
+        "intensityValueEnd": 298
+       },
+       {
+        "sectionType": 3,
+        "targetType": 2,
+        "targetValue": 60,
+        "intensityType": 2,
+        "intensityValueStart": 390,
+        "intensityValueEnd": 450
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 800,
+        "intensityType": 2,
+        "intensityValueStart": 290,
+        "intensityValueEnd": 298
+       },
+       {
+        "sectionType": 3,
+        "targetType": 2,
+        "targetValue": 120,
+        "intensityType": 2,
+        "intensityValueStart": 390,
+        "intensityValueEnd": 450
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 1200,
+        "intensityType": 2,
+        "intensityValueStart": 290,
+        "intensityValueEnd": 298
+       },
+       {
+        "sectionType": 3,
+        "targetType": 2,
+        "targetValue": 180,
+        "intensityType": 2,
+        "intensityValueStart": 390,
+        "intensityValueEnd": 450
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 800,
+        "intensityType": 2,
+        "intensityValueStart": 290,
+        "intensityValueEnd": 298
+       },
+       {
+        "sectionType": 3,
+        "targetType": 2,
+        "targetValue": 120,
+        "intensityType": 2,
+        "intensityValueStart": 390,
+        "intensityValueEnd": 450
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 400,
+        "intensityType": 2,
+        "intensityValueStart": 290,
+        "intensityValueEnd": 298
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-3c",
+     "d": "2026-03-20",
+     "t": "allure",
+     "title": "Allure 10 km 3 × 2 km",
+     "det": "15' échauffement · 3 × 2 km r 2' · 10' retour",
+     "tg": [
+      "5'10–5'14/km"
+     ],
+     "km": 10,
+     "why": "Spécificité : 6 km à l'allure objectif pour caler la sensation.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Allure 10 km 3 × 2 km",
+      "courseDescription": "15' d'échauffement, 3 fois 2 km à allure 10 km (5'10 à 5'14/km) avec 2' de trot, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 3,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 1,
+          "targetValue": 2000,
+          "intensityType": 2,
+          "intensityValueStart": 310,
+          "intensityValueEnd": 314
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 120,
+          "intensityType": 2,
+          "intensityValueStart": 390,
+          "intensityValueEnd": 450
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-3d",
+     "d": "2026-03-22",
+     "t": "sl",
+     "title": "Sortie longue 1h05",
+     "det": "Endurance",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 10,
+     "why": "On garde le volume sans ajouter de fatigue.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Sortie longue 1h05",
+      "courseDescription": "Endurance continue, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 3900,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "name": "Consolidation",
+   "range": "23–29 mars",
+   "s": [
+    {
+     "id": "ex-4a",
+     "d": "2026-03-23",
+     "t": "footing",
+     "title": "Footing 35'",
+     "det": "Facile",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 5.5,
+     "why": "Volume en légère baisse, la fraîcheur s'installe.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 35'",
+      "courseDescription": "Facile, FC entre 130 et 146.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2100,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-4b",
+     "d": "2026-03-25",
+     "t": "seuil",
+     "title": "Seuil 2 × 15'",
+     "det": "15' échauffement · 2 × 15' r 3' trot · 10' retour",
+     "tg": [
+      "5'15–5'25/km",
+      "FC 158–168"
+     ],
+     "km": 10,
+     "why": "Dernière grosse séance de seuil, 9 jours avant la course.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Seuil 2 × 15'",
+      "courseDescription": "15' d'échauffement, 2 fois 15' au seuil (5'15 à 5'25/km) avec 3' de trot, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 2,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 900,
+          "intensityType": 2,
+          "intensityValueStart": 315,
+          "intensityValueEnd": 325
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 180,
+          "intensityType": 2,
+          "intensityValueStart": 390,
+          "intensityValueEnd": 450
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-4c",
+     "d": "2026-03-27",
+     "t": "footing",
+     "title": "Footing 30'",
+     "det": "Très facile",
+     "tg": [
+      "FC < 143"
+     ],
+     "km": 4.5,
+     "why": "Récupération avant la dernière semaine.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 30'",
+      "courseDescription": "Très facile, FC sous 143.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 1800,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 143
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-4d",
+     "d": "2026-03-29",
+     "t": "sl",
+     "title": "Sortie longue 1h",
+     "det": "Endurance, dernière longue",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 9,
+     "why": "Raccourcie volontairement : l'affûtage commence.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Sortie longue 1h",
+      "courseDescription": "Endurance continue, FC entre 130 et 146. Dernière sortie longue avant la course.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 3600,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "name": "Affûtage & course",
+   "range": "30 mars–5 avril",
+   "s": [
+    {
+     "id": "ex-5a",
+     "d": "2026-03-30",
+     "t": "footing",
+     "title": "Footing 35' + 4 lignes droites",
+     "det": "Facile",
+     "tg": [
+      "FC 130–146"
+     ],
+     "km": 5.5,
+     "why": "Volume réduit, la fraîcheur s'installe.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Footing 35' + 4 lignes droites",
+      "courseDescription": "35' facile puis 4 accélérations de 20 secondes.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 2100,
+        "intensityType": 1,
+        "intensityValueStart": 130,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 4,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 20,
+          "intensityType": 2,
+          "intensityValueStart": 250,
+          "intensityValueEnd": 270
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 60,
+          "intensityType": 2,
+          "intensityValueStart": 480,
+          "intensityValueEnd": 600
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-5b",
+     "d": "2026-04-01",
+     "t": "allure",
+     "title": "Rappel allure 4 × 1 km",
+     "det": "15' échauffement · 4 × 1 km r 1'30 · 10' retour",
+     "tg": [
+      "5'12/km"
+     ],
+     "km": 8,
+     "why": "Affûtage : volume coupé de moitié, intensité gardée (Mujika & Padilla).",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Rappel allure 4 × 1 km",
+      "courseDescription": "15' d'échauffement, 4 fois 1 km à allure course (5'10 à 5'14/km) avec 1'30 de trot, 10' de retour au calme.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 4,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 1,
+          "targetValue": 1000,
+          "intensityType": 2,
+          "intensityValueStart": 310,
+          "intensityValueEnd": 314
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 90,
+          "intensityType": 2,
+          "intensityValueStart": 390,
+          "intensityValueEnd": 450
+         }
+        ]
+       },
+       {
+        "sectionType": 4,
+        "targetType": 2,
+        "targetValue": 600,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 140
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-5c",
+     "d": "2026-04-03",
+     "t": "footing",
+     "title": "Déblocage 20' + 3 lignes droites",
+     "det": "La veille, très court",
+     "tg": [
+      "FC < 143"
+     ],
+     "km": 3.5,
+     "why": "Garder du tonus sans fatigue, la veille de la course.",
+     "fixed": false,
+     "c": {
+      "sportType": 1,
+      "courseName": "Déblocage 20' + 3 lignes droites",
+      "courseDescription": "20' très facile puis 3 accélérations de 20 secondes.",
+      "sections": [
+       {
+        "sectionType": 2,
+        "targetType": 2,
+        "targetValue": 1200,
+        "intensityType": 1,
+        "intensityValueStart": 120,
+        "intensityValueEnd": 143
+       },
+       {
+        "intervalGroup": true,
+        "repeats": 3,
+        "sets": [
+         {
+          "sectionType": 2,
+          "targetType": 2,
+          "targetValue": 20,
+          "intensityType": 2,
+          "intensityValueStart": 250,
+          "intensityValueEnd": 270
+         },
+         {
+          "sectionType": 3,
+          "targetType": 2,
+          "targetValue": 60,
+          "intensityType": 2,
+          "intensityValueStart": 480,
+          "intensityValueEnd": 600
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "ex-5d",
+     "d": "2026-04-05",
+     "t": "course",
+     "title": "Foulées du Port · 10 km",
+     "det": "Départ 9h30 · 1er km à 5'16, puis 5'12",
+     "tg": [
+      "Objectif 52:00",
+      "5'12/km"
+     ],
+     "km": 13,
+     "why": "Départ contrôlé : chaque seconde perdue trop vite se paie sur la fin.",
+     "fixed": true,
+     "c": {
+      "sportType": 1,
+      "courseName": "Foulées du Port · 10 km",
+      "courseDescription": "Départ 9h30. 15' d'échauffement. Départ contrôlé à 5'16 le premier km, puis 5'12/km. On accélère après le 8e km si les jambes répondent.",
+      "sections": [
+       {
+        "sectionType": 1,
+        "targetType": 2,
+        "targetValue": 900,
+        "intensityType": 1,
+        "intensityValueStart": 125,
+        "intensityValueEnd": 146
+       },
+       {
+        "sectionType": 2,
+        "targetType": 1,
+        "targetValue": 10000,
+        "intensityType": 2,
+        "intensityValueStart": 308,
+        "intensityValueEnd": 318
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "season": {
+  "title": "Ma saison",
+  "sub": "des Foulées du Port au semi de la Ville",
+  "start": "2026-03-02",
+  "end": "2026-09-27",
+  "blocks": [
+   {
+    "s": "2026-03-02",
+    "e": "2026-04-05",
+    "l": "Prépa 10 km",
+    "c": "--s-allure",
+    "goal": "52:00 aux Foulées du Port."
+   },
+   {
+    "s": "2026-04-06",
+    "e": "2026-04-19",
+    "l": "Coupure",
+    "c": "--fg-3",
+    "goal": "Récupérer : 3 footings courts, aucune intensité."
+   },
+   {
+    "s": "2026-04-20",
+    "e": "2026-06-28",
+    "l": "Foncier",
+    "c": "--s-footing",
+    "goal": "Volume facile sous 146 bpm, une seule qualité courte, renfo 2 fois par semaine."
+   },
+   {
+    "s": "2026-06-29",
+    "e": "2026-09-27",
+    "l": "Prépa semi",
+    "c": "--s-seuil",
+    "goal": "Seuil, allure semi et sortie longue qui s'allonge."
+   }
+  ],
+  "races": [
+   {
+    "d": "2026-04-05",
+    "n": "Foulées du Port",
+    "dist": "10 km",
+    "goal": "52:00",
+    "tbc": false
+   },
+   {
+    "d": "2026-09-27",
+    "n": "Semi de la Ville",
+    "dist": "Semi",
+    "goal": "1:55:00",
+    "tbc": true
+   }
+  ]
+ },
+ "race": {
+  "name": "Foulées du Port · 10 km chrono",
+  "sub": "Foulées du Port · Ville-Exemple",
+  "geo": [
+   47.21,
+   -1.56
+  ],
+  "hour": "09:30",
+  "time": "9h30",
+  "tz": "Europe/Paris",
+  "facts": [
+   [
+    "Départ",
+    "dimanche, 9h30"
+   ],
+   [
+    "Lieu",
+    "Quai du Port, Ville-Exemple"
+   ],
+   [
+    "Distance",
+    "10 km, 2 boucles de 5 km"
+   ],
+   [
+    "Parcours",
+    "bord de mer, plat et roulant"
+   ],
+   [
+    "Dossards",
+    "la veille de 15h à 19h, ou le matin dès 7h30"
+   ],
+   [
+    "Obligatoire",
+    "certificat médical ou licence en cours de validité"
+   ]
+  ],
+  "mandatory": "Le chrono demande un certificat médical de moins d'un an ou une licence d'athlétisme. Vérifie-le avant la semaine de course.",
+  "alert": null,
+  "pacing": [
+   [
+    1,
+    316
+   ],
+   [
+    2,
+    312
+   ],
+   [
+    3,
+    312
+   ],
+   [
+    4,
+    312
+   ],
+   [
+    5,
+    312
+   ],
+   [
+    6,
+    312
+   ],
+   [
+    7,
+    312
+   ],
+   [
+    8,
+    312
+   ],
+   [
+    9,
+    310
+   ],
+   [
+    10,
+    310
+   ]
+  ],
+  "strategy": [
+   [
+    "Km 1 : départ contrôlé",
+    "5'16. Tout le monde part trop vite : laisse partir, tu les reprendras."
+   ],
+   [
+    "Km 2 à 5 : première boucle",
+    "5'12 réguliers. FC autour de 162–166. Note ton temps au 5 km : 26:00 visé."
+   ],
+   [
+    "Km 6 à 8 : le moment dur",
+    "Toujours 5'12. C'est là que ça pique : concentre-toi sur ta foulée et le coureur devant toi."
+   ],
+   [
+    "Km 9 et 10 : tout donner",
+    "5'10 ou mieux si les jambes répondent. Dernier kilomètre : FC libre."
+   ]
+  ],
+  "timeline": [
+   [
+    "6h30",
+    "Petit-déjeuner habituel, 3 h avant le départ."
+   ],
+   [
+    "7h30",
+    "Arrivée sur place, retrait du dossard si pas fait la veille."
+   ],
+   [
+    "8h30",
+    "Collation légère : banane ou compote. 300 ml d'eau."
+   ],
+   [
+    "8h50",
+    "Échauffement 20 min (voir ci-dessous)."
+   ],
+   [
+    "9h15",
+    "Sas de départ."
+   ],
+   [
+    "9h30",
+    "Départ du 10 km chrono."
+   ],
+   [
+    "Après",
+    "Boire, manger, se couvrir vite."
+   ]
+  ],
+  "warmup": [
+   "12 min de footing très facile, FC sous 143.",
+   "5 min de gammes : montées de genoux, talons-fesses, pas chassés.",
+   "3 accélérations de 20 secondes à l'allure course, puis un peu plus vite.",
+   "Fini 10 à 15 min avant le départ, garde une couche jusqu'au sas."
+  ],
+  "week": [
+   [
+    "Lun",
+    "Footing 35' + lignes droites. Renfo d'activation."
+   ],
+   [
+    "Mer",
+    "Rappel 4 × 1 km à 5'12. Dernière séance dure."
+   ],
+   [
+    "Jeu",
+    "Repos. Prépare ton sac."
+   ],
+   [
+    "Ven",
+    "Déblocage 20', puis retrait du dossard. Dîner riche en féculents, coucher tôt."
+   ],
+   [
+    "Sam",
+    "Repos complet, hydrate-toi normalement."
+   ],
+   [
+    "Dim",
+    "Course."
+   ]
+  ],
+  "nutrition": "Pour un 10 km, pas besoin de gel ni de ravitaillement. Bois normalement dans la matinée, sans excès.",
+  "checklist": [
+   [
+    "dossard",
+    "Dossard + épingles"
+   ],
+   [
+    "certif",
+    "Certificat médical ou licence"
+   ],
+   [
+    "montre",
+    "Montre et brassard cardio chargés"
+   ],
+   [
+    "chaussures",
+    "Chaussures de course habituelles (rien de neuf)"
+   ],
+   [
+    "tenue",
+    "Tenue adaptée à la météo"
+   ],
+   [
+    "chaud",
+    "Couche chaude + vêtements secs pour après"
+   ],
+   [
+    "eau",
+    "Petite bouteille d'eau avant le départ"
+   ]
+  ]
+ },
+ "renfo": [
+  {
+   "id": "ex-r1a",
+   "d": "2026-03-03",
+   "k": "A",
+   "title": "Jambes et escaliers",
+   "dur": 25,
+   "ex": [
+    [
+     "bulg",
+     "3 × 8 / jambe"
+    ],
+    [
+     "step",
+     "3 × 8 / jambe"
+    ],
+    [
+     "pont",
+     "3 × 12 / jambe"
+    ],
+    [
+     "molT",
+     "3 × 12"
+    ],
+    [
+     "molF",
+     "3 × 12"
+    ]
+   ],
+   "note": "Après ton footing du lundi."
+  },
+  {
+   "id": "ex-r1b",
+   "d": "2026-03-05",
+   "k": "B",
+   "title": "Gainage, hanches et mollets",
+   "dur": 20,
+   "ex": [
+    [
+     "gainV",
+     "3 × 40\""
+    ],
+    [
+     "gainL",
+     "3 × 30\" / côté"
+    ],
+    [
+     "dead",
+     "3 × 10"
+    ],
+    [
+     "clam",
+     "3 × 15 / côté"
+    ],
+    [
+     "molT",
+     "3 × 15"
+    ]
+   ]
+  },
+  {
+   "id": "ex-r2a",
+   "d": "2026-03-10",
+   "k": "A",
+   "title": "Jambes et escaliers",
+   "dur": 25,
+   "ex": [
+    [
+     "bulg",
+     "3 × 10 / jambe"
+    ],
+    [
+     "step",
+     "3 × 10 / jambe"
+    ],
+    [
+     "desc",
+     "3 × 8 / jambe"
+    ],
+    [
+     "pont",
+     "3 × 15 / jambe"
+    ],
+    [
+     "molT",
+     "3 × 15"
+    ],
+    [
+     "molF",
+     "3 × 15"
+    ]
+   ],
+   "note": "Après ton footing du lundi."
+  },
+  {
+   "id": "ex-r2b",
+   "d": "2026-03-12",
+   "k": "B",
+   "title": "Gainage, hanches et pliométrie",
+   "dur": 22,
+   "ex": [
+    [
+     "gainV",
+     "3 × 50\""
+    ],
+    [
+     "gainL",
+     "3 × 40\" / côté"
+    ],
+    [
+     "dead",
+     "3 × 12"
+    ],
+    [
+     "clam",
+     "3 × 15 / côté"
+    ],
+    [
+     "sdt",
+     "3 × 8 / jambe"
+    ],
+    [
+     "sauts",
+     "3 × 20\""
+    ]
+   ]
+  },
+  {
+   "id": "ex-r3a",
+   "d": "2026-03-17",
+   "k": "A",
+   "title": "Jambes et escaliers",
+   "dur": 25,
+   "ex": [
+    [
+     "bulg",
+     "3 × 10 / jambe, lesté"
+    ],
+    [
+     "step",
+     "3 × 12 / jambe"
+    ],
+    [
+     "desc",
+     "3 × 10 / jambe"
+    ],
+    [
+     "pont",
+     "3 × 15 / jambe"
+    ],
+    [
+     "molT",
+     "3 × 15"
+    ],
+    [
+     "molF",
+     "3 × 15"
+    ]
+   ]
+  },
+  {
+   "id": "ex-r3b",
+   "d": "2026-03-19",
+   "k": "B",
+   "title": "Gainage, hanches et pliométrie",
+   "dur": 22,
+   "ex": [
+    [
+     "gainV",
+     "3 × 60\""
+    ],
+    [
+     "gainL",
+     "3 × 45\" / côté"
+    ],
+    [
+     "dead",
+     "3 × 12"
+    ],
+    [
+     "clam",
+     "3 × 20 / côté"
+    ],
+    [
+     "sdt",
+     "3 × 10 / jambe"
+    ],
+    [
+     "sauts",
+     "4 × 20\""
+    ]
+   ]
+  },
+  {
+   "id": "ex-r4a",
+   "d": "2026-03-24",
+   "k": "A",
+   "title": "Jambes et escaliers",
+   "dur": 20,
+   "ex": [
+    [
+     "bulg",
+     "2 × 8 / jambe"
+    ],
+    [
+     "step",
+     "2 × 10 / jambe"
+    ],
+    [
+     "pont",
+     "2 × 12 / jambe"
+    ],
+    [
+     "molT",
+     "2 × 12"
+    ]
+   ],
+   "note": "Un cran en dessous : la course approche."
+  },
+  {
+   "id": "ex-r5a",
+   "d": "2026-03-31",
+   "k": "Activation",
+   "title": "Activation semaine de course",
+   "dur": 12,
+   "ex": [
+    [
+     "pont",
+     "2 × 10 / jambe"
+    ],
+    [
+     "molT",
+     "2 × 10"
+    ],
+    [
+     "gainV",
+     "2 × 30\""
+    ],
+    [
+     "gainL",
+     "2 × 20\" / côté"
+    ]
+   ],
+   "note": "Sans charge ni courbatures : on garde le tonus.",
+   "light": true
+  }
+ ],
+ "snapshot": {
+  "acts": [
+   {
+    "d": "2026-03-11",
+    "n": "Côtes 10 x 45",
+    "km": 8.0,
+    "du": "48:12",
+    "p": "6:02",
+    "hr": 152
+   },
+   {
+    "d": "2026-03-09",
+    "n": "Footing 40' + 6 lignes droites",
+    "km": 6.6,
+    "du": "41:30",
+    "p": "6:17",
+    "hr": 141
+   },
+   {
+    "d": "2026-03-08",
+    "n": "Sortie longue 1h05",
+    "km": 10.1,
+    "du": "1:05:20",
+    "p": "6:28",
+    "hr": 143
+   },
+   {
+    "d": "2026-03-06",
+    "n": "Footing 40'",
+    "km": 6.4,
+    "du": "40:48",
+    "p": "6:21",
+    "hr": 142
+   },
+   {
+    "d": "2026-03-04",
+    "n": "Fartlek 8 x 1'",
+    "km": 8.1,
+    "du": "50:10",
+    "p": "6:11",
+    "hr": 148
+   },
+   {
+    "d": "2026-03-02",
+    "n": "Footing 40'",
+    "km": 6.3,
+    "du": "40:05",
+    "p": "6:21",
+    "hr": 141
+   },
+   {
+    "d": "2026-03-01",
+    "n": "Sortie longue de 13 km",
+    "km": 13.0,
+    "du": "1:24:30",
+    "p": "6:30",
+    "hr": 145
+   },
+   {
+    "d": "2026-02-27",
+    "n": "Course facile de 6,0 km",
+    "km": 6.0,
+    "du": "38:30",
+    "p": "6:25",
+    "hr": 143
+   },
+   {
+    "d": "2026-02-25",
+    "n": "Course facile de 5,5 km",
+    "km": 5.5,
+    "du": "35:30",
+    "p": "6:27",
+    "hr": 142
+   },
+   {
+    "d": "2026-02-24",
+    "n": "Fractionnés de 1 km",
+    "km": 7.5,
+    "du": "46:30",
+    "p": "6:12",
+    "hr": 150
+   },
+   {
+    "d": "2026-02-23",
+    "n": "Course facile de 7,0 km",
+    "km": 7.0,
+    "du": "45:40",
+    "p": "6:31",
+    "hr": 144
+   },
+   {
+    "d": "2026-02-22",
+    "n": "Foulées d'hiver 10 km",
+    "km": 10.05,
+    "du": "54:30",
+    "p": "5:25",
+    "hr": 167
+   },
+   {
+    "d": "2026-02-20",
+    "n": "Course facile de 6,2 km",
+    "km": 6.2,
+    "du": "40:20",
+    "p": "6:30",
+    "hr": 142
+   },
+   {
+    "d": "2026-02-18",
+    "n": "Course facile de 5,0 km",
+    "km": 5.0,
+    "du": "32:40",
+    "p": "6:32",
+    "hr": 141
+   },
+   {
+    "d": "2026-02-16",
+    "n": "Course facile de 6,0 km",
+    "km": 6.0,
+    "du": "39:30",
+    "p": "6:35",
+    "hr": 143
+   },
+   {
+    "d": "2026-02-15",
+    "n": "Sortie longue de 14 km",
+    "km": 14.0,
+    "du": "1:31:10",
+    "p": "6:30",
+    "hr": 146
+   },
+   {
+    "d": "2026-02-13",
+    "n": "Course facile de 6,5 km",
+    "km": 6.5,
+    "du": "42:50",
+    "p": "6:35",
+    "hr": 142
+   },
+   {
+    "d": "2026-02-11",
+    "n": "Course facile de 5,5 km",
+    "km": 5.5,
+    "du": "36:20",
+    "p": "6:36",
+    "hr": 141
+   },
+   {
+    "d": "2026-02-09",
+    "n": "Course facile de 6,0 km",
+    "km": 6.0,
+    "du": "39:50",
+    "p": "6:38",
+    "hr": 144
+   },
+   {
+    "d": "2026-02-08",
+    "n": "Sortie longue de 12 km",
+    "km": 12.0,
+    "du": "1:18:30",
+    "p": "6:32",
+    "hr": 145
+   },
+   {
+    "d": "2026-02-06",
+    "n": "Course facile de 5,0 km",
+    "km": 5.0,
+    "du": "33:00",
+    "p": "6:36",
+    "hr": 142
+   },
+   {
+    "d": "2026-02-04",
+    "n": "Course facile de 6,0 km",
+    "km": 6.0,
+    "du": "39:40",
+    "p": "6:36",
+    "hr": 143
+   },
+   {
+    "d": "2026-02-02",
+    "n": "Course facile de 5,5 km",
+    "km": 5.5,
+    "du": "36:30",
+    "p": "6:38",
+    "hr": 142
+   },
+   {
+    "d": "2026-01-30",
+    "n": "Course facile de 5,0 km",
+    "km": 5.0,
+    "du": "33:10",
+    "p": "6:38",
+    "hr": 141
+   },
+   {
+    "d": "2026-01-28",
+    "n": "Course facile de 6,0 km",
+    "km": 6.0,
+    "du": "40:10",
+    "p": "6:42",
+    "hr": 144
+   },
+   {
+    "d": "2026-01-26",
+    "n": "Course facile de 5,0 km",
+    "km": 5.0,
+    "du": "33:40",
+    "p": "6:44",
+    "hr": 143
+   }
+  ],
+  "bikes": [
+   {
+    "d": "2026-03-11",
+    "n": "Trajet vélo · Ville-Exemple",
+    "km": 9.8,
+    "du": "31:20",
+    "hr": 112
+   },
+   {
+    "d": "2026-03-10",
+    "n": "Trajet vélo · Ville-Exemple",
+    "km": 9.7,
+    "du": "30:50",
+    "hr": 110
+   },
+   {
+    "d": "2026-03-06",
+    "n": "Trajet vélo · Ville-Exemple",
+    "km": 9.8,
+    "du": "31:05",
+    "hr": 111
+   },
+   {
+    "d": "2026-03-05",
+    "n": "Trajet vélo · Ville-Exemple",
+    "km": 9.7,
+    "du": "30:40",
+    "hr": 109
+   }
+  ],
+  "fit": {
+   "vo2": 47,
+   "thr": "5:20",
+   "p5": "25:40",
+   "p10": "53:20",
+   "phm": "1:58:10",
+   "pm": "4:09:00"
+  },
+  "load": [
+   [
+    "13/02",
+    58,
+    66
+   ],
+   [
+    "14/02",
+    63,
+    66
+   ],
+   [
+    "15/02",
+    68,
+    66
+   ],
+   [
+    "16/02",
+    73,
+    66
+   ],
+   [
+    "17/02",
+    63,
+    67
+   ],
+   [
+    "18/02",
+    68,
+    67
+   ],
+   [
+    "19/02",
+    73,
+    67
+   ],
+   [
+    "20/02",
+    79,
+    67
+   ],
+   [
+    "21/02",
+    68,
+    68
+   ],
+   [
+    "22/02",
+    73,
+    68
+   ],
+   [
+    "23/02",
+    79,
+    68
+   ],
+   [
+    "24/02",
+    84,
+    68
+   ],
+   [
+    "25/02",
+    73,
+    69
+   ],
+   [
+    "26/02",
+    78,
+    69
+   ],
+   [
+    "27/02",
+    84,
+    69
+   ],
+   [
+    "28/02",
+    89,
+    69
+   ],
+   [
+    "01/03",
+    78,
+    70
+   ],
+   [
+    "02/03",
+    84,
+    70
+   ],
+   [
+    "03/03",
+    89,
+    70
+   ],
+   [
+    "04/03",
+    94,
+    70
+   ],
+   [
+    "05/03",
+    84,
+    71
+   ],
+   [
+    "06/03",
+    89,
+    71
+   ],
+   [
+    "07/03",
+    94,
+    71
+   ],
+   [
+    "08/03",
+    99,
+    71
+   ],
+   [
+    "09/03",
+    89,
+    72
+   ],
+   [
+    "10/03",
+    94,
+    72
+   ],
+   [
+    "11/03",
+    99,
+    72
+   ],
+   [
+    "12/03",
+    105,
+    72
+   ]
+  ],
+  "rhr": [
+   [
+    "2026-02-11",
+    52
+   ],
+   [
+    "2026-02-12",
+    53
+   ],
+   [
+    "2026-02-13",
+    51
+   ],
+   [
+    "2026-02-14",
+    52
+   ],
+   [
+    "2026-02-15",
+    53
+   ],
+   [
+    "2026-02-16",
+    52
+   ],
+   [
+    "2026-02-17",
+    51
+   ],
+   [
+    "2026-02-18",
+    52
+   ],
+   [
+    "2026-02-19",
+    53
+   ],
+   [
+    "2026-02-20",
+    51
+   ],
+   [
+    "2026-02-21",
+    52
+   ],
+   [
+    "2026-02-22",
+    53
+   ],
+   [
+    "2026-02-23",
+    52
+   ],
+   [
+    "2026-02-24",
+    51
+   ],
+   [
+    "2026-02-25",
+    52
+   ],
+   [
+    "2026-02-26",
+    53
+   ],
+   [
+    "2026-02-27",
+    51
+   ],
+   [
+    "2026-02-28",
+    52
+   ],
+   [
+    "2026-03-01",
+    53
+   ],
+   [
+    "2026-03-02",
+    52
+   ],
+   [
+    "2026-03-03",
+    51
+   ],
+   [
+    "2026-03-04",
+    52
+   ],
+   [
+    "2026-03-05",
+    53
+   ],
+   [
+    "2026-03-06",
+    51
+   ],
+   [
+    "2026-03-07",
+    52
+   ],
+   [
+    "2026-03-08",
+    53
+   ],
+   [
+    "2026-03-09",
+    52
+   ],
+   [
+    "2026-03-10",
+    51
+   ],
+   [
+    "2026-03-11",
+    52
+   ],
+   [
+    "2026-03-12",
+    53
+   ]
+  ],
+  "hrv": [
+   [
+    "06/03",
+    56
+   ],
+   [
+    "07/03",
+    54
+   ],
+   [
+    "08/03",
+    58
+   ],
+   [
+    "09/03",
+    52
+   ],
+   [
+    "10/03",
+    55
+   ],
+   [
+    "11/03",
+    57
+   ],
+   [
+    "12/03",
+    54
+   ]
+  ],
+  "hrvRange": [
+   50,
+   62
+  ],
+  "sleep": [
+   [
+    "27/02",
+    430,
+    18,
+    84
+   ],
+   [
+    "28/02",
+    415,
+    17,
+    80
+   ],
+   [
+    "01/03",
+    450,
+    19,
+    88
+   ],
+   [
+    "02/03",
+    400,
+    15,
+    74
+   ],
+   [
+    "03/03",
+    445,
+    18,
+    86
+   ],
+   [
+    "04/03",
+    420,
+    17,
+    82
+   ],
+   [
+    "05/03",
+    460,
+    20,
+    90
+   ],
+   [
+    "06/03",
+    390,
+    14,
+    72
+   ],
+   [
+    "07/03",
+    435,
+    18,
+    85
+   ],
+   [
+    "08/03",
+    425,
+    17,
+    83
+   ],
+   [
+    "09/03",
+    440,
+    19,
+    87
+   ],
+   [
+    "10/03",
+    410,
+    16,
+    79
+   ],
+   [
+    "11/03",
+    450,
+    18,
+    88
+   ],
+   [
+    "12/03",
+    430,
+    17,
+    84
+   ]
+  ],
+  "rec": {
+   "pct": 88,
+   "level": "Heavy training allowed"
+  },
+  "syncedAt": 0
+ }
+}
