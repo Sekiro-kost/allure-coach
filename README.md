@@ -92,7 +92,7 @@ Les issues et les pull requests sont bienvenues : voir [`CONTRIBUTING.md`](CONTR
 
 Si ce kit t'aide à courir mieux, tu peux m'offrir un café. C'est facultatif et ça ne donne pas droit à un support personnalisé.
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-TON--PSEUDO-FFDD00?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/SekiroKost)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-SekiroKost-FFDD00?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/SekiroKost)
 
 
 ## Licence
